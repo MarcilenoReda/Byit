@@ -380,7 +380,7 @@ body {
 
 .hero {
   background-color: var(--hero-section);
-  padding-block-start: calc(var(--section-padding) + 50px);
+  /* padding-block-start: calc(var(--section-padding) + 50px); */
   text-align: center;
   overflow: hidden;
 }
@@ -527,14 +527,19 @@ body {
 
 .about .section-text {
   margin-block: 20px 13px;
+  color: var(--rich-black-fogra-29-1);
 }
 
 @media (max-width:767px) {
   .about .section-title{
     margin-top: 10px !important;
+    text-align: center;
   }
   .about-banner img {
     border-radius: 20px;
+   }
+   .about .section-text{
+    text-align: center;
    }
 }
 
