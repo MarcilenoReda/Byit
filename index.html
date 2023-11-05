@@ -8,6 +8,7 @@
 
     <!-- 
     - favicon
+    - Byit App
   -->
     <link rel="shortcut icon" href="./assets/images/logo-image-white.png" />
 
@@ -26,6 +27,12 @@
       rel="stylesheet"
     />
 
+    <!--
+      -Aos
+    -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- 
     - preload images
   -->
@@ -40,13 +47,15 @@
     <header class="header" data-header>
       <div class="container">
         <a href="#" class="logo"
-          ><img  src="./assets/images/logo-image-color.png" alt="" class="logo-image"
+          ><img src="./assets/images/logo-image-color.png" class="logo-image"
         /></a>
 
         <nav class="navbar" data-navbar>
           <div class="wrapper">
             <a href="#" class="logo"
-              ><img style="width: 60px" src="./assets/images/logo-image-white.png" alt=""
+              ><img
+                style="width: 60px"
+                src="./assets/images/logo-image-white.png"
             /></a>
 
             <button
@@ -105,7 +114,7 @@
               </div>
 
               <p class="hero-text">
-                with 11 years in the real estate market, Ahya investments led
+                With 11 years in the real estate market, Ahya investments led
                 hundreds of clients to choose their smart real estate move. Now
                 we serve brokers to enhance their sales and maximize their
                 profits from every successful deal closing.
@@ -152,54 +161,80 @@
         <!-- 
         - #ABOUT
       -->
-
         <section class="section about" id="about" aria-label="about">
           <div class="container">
-            <figure class="about-banner">
+            <figure data-aos="fade-right" class="about-banner"  >
               <img
                 src="./assets/images/about-banner.jpg"
                 width="802"
-                height="654"
+                height="666"
                 loading="lazy"
-                alt="about banner"
                 class="w-100"
               />
             </figure>
 
-            <div class="about-content">
-              <h2 class="h2-sm section-title">
-                we support you with every deal. We spare you from all the
-                bureaucracy and the paper work.
+            <div
+              
+              class="about-content"
+            >
+              <h2 data-aos="fade-right" class="h2-sm section-title" >
+                We support you with every deal. We spare you from all the
+                bureaucracy and paper work.
               </h2>
 
-              <p class="section-text">
-                Our concept is to deliver you all the data you’ll need to search
+              <p
+                class="section-text"
+                data-aos="fade-right"
+                data-aos-delay="100"
+              >
+                Our concept is to deliver all the data you’ll need to search
                 your client’s needs. Surf our app and you’ll find more that 1000
                 projects and 72,000+ units. With our Ai technology algorithm,
                 you’ll select your client needs in few seconds.
               </p>
 
               <ul class="about-list">
-                <li class="has-before">No fees</li>
+                <li
+                  data-aos="fade-right"
+                  data-aos-delay="50"
+                  class="has-before"
+                >
+                  No fees
+                </li>
 
-                <li class="has-before">Transparent tax calculation</li>
+                <li
+                  data-aos="fade-right"
+                  data-aos-delay="100"
+                  class="has-before"
+                >
+                  Transparent tax calculation
+                </li>
 
-                <li class="has-before">Updated data</li>
+                <li
+                  data-aos="fade-right"
+                  data-aos-delay="150"
+                  class="has-before"
+                >
+                  Updated data
+                </li>
               </ul>
 
               <div class="btn-group">
-                <button onclick="redirectToStore()" class="btn btn-primary">
+                <button
+                  data-aos="fade-right"
+                  onclick="redirectToStore()"
+                  class="btn btn-primary"
+                >
                   Download Now
                 </button>
 
-                <button class="flex-btn">
+                <button data-aos="fade-right" class="flex-btn">
                   <div class="btn-icon">
                     <ion-icon
                       name="medal-outline"
                       aria-hidden="true"
                     ></ion-icon>
                   </div>
-
                   <span class="span">10+ Years Experience</span>
                 </button>
               </div>
@@ -213,17 +248,17 @@
 
         <section class="section service" id="services" aria-label="service">
           <div class="container">
-            <p class="section-subtitle text-center">-What We Offer-</p>
+            <p  data-aos="fade-up" data-aos-delay="50" class="section-subtitle text-center">-What We Offer-</p>
 
-            <h2 class="h2 section-title text-center">Get trained</h2>
+            <h2  data-aos="fade-up" data-aos-delay="100" class="h2 section-title text-center">Get trained</h2>
 
-            <p class="section-text text-center">
-              we offer training if you’re new to real estate brokerage. Download
+            <p data-aos="fade-up" data-aos-delay="150"  class="section-text text-center">
+              We offer training if you’re new to real estate brokerage. Download
               our app and you’ll be notified with our programs and appointments.
             </p>
 
             <ul class="grid-list">
-              <li>
+              <li data-aos="fade-right">
                 <div class="service-card has-after">
                   <figure class="card-icon">
                     <img
@@ -231,23 +266,22 @@
                       width="140"
                       height="140"
                       loading="lazy"
-                      alt="UI/UX Creative Design"
                       class="img"
                     />
                   </figure>
 
                   <div class="card-content">
-                    <h3 class="h3 card-title">we help you to be an expert.</h3>
+                    <h3 class="h3 card-title">We help you to be an expert.</h3>
 
                     <p class="card-text">
-                      with our tool you’ll be able to comprehend the real estate
+                      With our tool you’ll be able to comprehend the real estate
                       market and close your deals effectively.
                     </p>
                   </div>
                 </div>
               </li>
 
-              <li>
+              <li data-aos="fade-left">
                 <div class="service-card has-after">
                   <figure class="card-icon">
                     <img
@@ -255,24 +289,23 @@
                       width="140"
                       height="140"
                       loading="lazy"
-                      alt="App Development"
                       class="img"
                     />
                   </figure>
 
                   <div class="card-content">
-                    <h3 class="h3 card-title">make real money</h3>
+                    <h3 class="h3 card-title">Make real money</h3>
 
                     <p class="card-text">
-                      we secure 80% from the developers commission with every
-                      deal you close through our platform. All calculations
-                      are crystal clear.
+                      We secure 80% from the developers commission as your cut
+                      with every deal closing through our platform. All
+                      calculations are crystal clear.
                     </p>
                   </div>
                 </div>
               </li>
 
-              <li>
+              <li data-aos="fade-right" >
                 <div class="service-card has-after">
                   <figure class="card-icon">
                     <img
@@ -280,24 +313,23 @@
                       width="140"
                       height="140"
                       loading="lazy"
-                      alt="Professional Content Writer"
                       class="img"
                     />
                   </figure>
 
                   <div class="card-content">
-                    <h3 class="h3 card-title">make money effortlessly</h3>
+                    <h3 class="h3 card-title">Make money effortlessly</h3>
 
                     <p class="card-text">
-                      if you can’t close you client, Pass him/her to our
-                      professional team to close it for you. We secure 30% from
-                      the net commission incase of closing.
+                      If you can’t close you client, Pass him/her to our
+                      professional team to work for you. your cut will be 30%
+                      from the net commission incase of closing.
                     </p>
                   </div>
                 </div>
               </li>
 
-              <li>
+              <li data-aos="fade-left" >
                 <div class="service-card has-after">
                   <figure class="card-icon">
                     <img
@@ -305,13 +337,12 @@
                       width="140"
                       height="140"
                       loading="lazy"
-                      alt="Graphic Design"
                       class="img"
                     />
                   </figure>
 
                   <div class="card-content">
-                    <h3 class="h3 card-title">legal contracts</h3>
+                    <h3 class="h3 card-title">Legal contracts</h3>
 
                     <p class="card-text">
                       Download our app and sign your legal contract with us to
@@ -322,7 +353,7 @@
               </li>
             </ul>
 
-            <button onclick="redirectToStore()" class="btn btn-primary">
+            <button data-aos="fade-up" onclick="redirectToStore()" class="btn btn-primary">
               Get Started
             </button>
           </div>
@@ -334,18 +365,18 @@
 
         <section class="section features" id="features" aria-label="features">
           <div class="container">
-            <p class="section-subtitle text-center">-Why Choose Us-</p>
+            <p data-aos="fade-up" data-aos-delay="50" class="section-subtitle text-center">-Why Choose Us-</p>
 
-            <h2 class="h2 section-title text-center">Reasons to Choose Us</h2>
+            <h2 data-aos="fade-up" data-aos-delay="100" class="h2 section-title text-center">Reasons to Choose Us</h2>
 
-            <p class="section-text text-center">
+            <p data-aos="fade-up" data-aos-delay="150" class="section-text text-center">
               Ahya investments our mother company, have been growing in the real
               estate market for several years. We ensure a professional, clear
               and effective experience.
             </p>
 
             <ul class="grid-list">
-              <li>
+              <li data-aos="fade-right" data-aos-delay="50">
                 <div class="features-card">
                   <data class="card-number" value="01">01</data>
 
@@ -357,7 +388,7 @@
                 </div>
               </li>
 
-              <li>
+              <li data-aos="fade-right" data-aos-delay="100">
                 <div class="features-card">
                   <data class="card-number" value="02">02</data>
 
@@ -365,56 +396,56 @@
 
                   <p class="card-text">
                     Accounting process happens with the highest level of
-                    integrity
+                    integrity.
                   </p>
                 </div>
               </li>
 
-              <li>
+              <li data-aos="fade-right" data-aos-delay="50">
                 <div class="features-card">
                   <data class="card-number" value="03">03</data>
 
-                  <h3 class="h3 card-title">cooperation</h3>
+                  <h3 class="h3 card-title">Cooperation</h3>
 
                   <p class="card-text">
-                    we help you make the highest profit from your career
+                    We help you make the highest profit from your career.
                   </p>
                 </div>
               </li>
 
-              <li>
+              <li data-aos="fade-right" data-aos-delay="50">
                 <div class="features-card">
                   <data class="card-number" value="04">04</data>
 
                   <h3 class="h3 card-title">Training</h3>
 
                   <p class="card-text">
-                    our training courses will help you achieve more, faster.
+                    Our training courses will help you achieve more, faster.
                   </p>
                 </div>
               </li>
 
-              <li>
+              <li data-aos="fade-right" data-aos-delay="100">
                 <div class="features-card">
                   <data class="card-number" value="05">05</data>
 
-                  <h3 class="h3 card-title">coverage</h3>
+                  <h3 class="h3 card-title">Coverage</h3>
 
                   <p class="card-text">
-                    our team works restlessly to ensure full coverage for all
-                    the projects you may need
+                    Our team works restlessly to ensure full coverage for all
+                    the projects you may need.
                   </p>
                 </div>
               </li>
 
-              <li>
+              <li data-aos="fade-right" data-aos-delay="150">
                 <div class="features-card">
                   <data class="card-number" value="06">06</data>
 
-                  <h3 class="h3 card-title">commissions</h3>
+                  <h3 class="h3 card-title">Commissions</h3>
 
                   <p class="card-text">
-                    we ensure the highest common scheme for you.
+                    We ensure the highest common scheme for you.
                     No late payments.
                   </p>
                 </div>
@@ -439,10 +470,10 @@
 
             <ul class="grid-list">
               <li>
-                <div class="faq-card">
+                <div  data-aos="fade-right"   class="faq-card">
                   <button class="card-action" data-accordion-action>
                     <h3 class="h3 card-title">
-                      01. how do I guarantee my commission?
+                      01. How do I guarantee my commission?
                     </h3>
 
                     <div class="action-icon">
@@ -460,13 +491,13 @@
                   </button>
 
                   <div class="card-content">
-                    <p>we sign a legal contract with you.</p>
+                    <p>We sign a legal contract with you.</p>
                   </div>
                 </div>
               </li>
 
               <li>
-                <div class="faq-card">
+                <div  data-aos="fade-right"  class="faq-card">
                   <button class="card-action" data-accordion-action>
                     <h3 class="h3 card-title">
                       02. Is there a head quarters in Egypt?
@@ -487,13 +518,13 @@
                   </button>
 
                   <div class="card-content">
-                    <p>yes, we’re located in New Cairo.</p>
+                    <p>Yes, we’re located in New Cairo.</p>
                   </div>
                 </div>
               </li>
 
               <li>
-                <div class="faq-card">
+                <div data-aos="fade-right" class="faq-card">
                   <button class="card-action" data-accordion-action>
                     <h3 class="h3 card-title">
                       03. How long it takes to collect my commission?
@@ -515,19 +546,19 @@
 
                   <div class="card-content">
                     <p>
-                      usually it takes from from 4 to 8 weeks to collect your
-                      commission, except for some development companies with
-                      well known reputation of late paymentsz
+                      Usually it takes from from 4 to 8 weeks to collect your
+                      commission, except for some development companies well
+                      known reputation of late payments
                     </p>
                   </div>
                 </div>
               </li>
 
               <li>
-                <div class="faq-card">
+                <div data-aos="fade-right" class="faq-card">
                   <button class="card-action" data-accordion-action>
                     <h3 class="h3 card-title">
-                      05. what if I can’t contact the sales on the platform or
+                      05. What if I can’t contact the sales on the platform or
                       can’t find the project i need?
                     </h3>
 
@@ -547,15 +578,15 @@
 
                   <div class="card-content">
                     <p>
-                      our customer service team will help you find what you need
-                      within an hour of your request.
+                      Our customer service team will help you to find what you
+                      need within an hour of your request.
                     </p>
                   </div>
                 </div>
               </li>
 
               <li>
-                <div class="faq-card">
+                <div data-aos="fade-right"  class="faq-card">
                   <button class="card-action" data-accordion-action>
                     <h3 class="h3 card-title">
                       06. Do you offer resale inventory?
@@ -595,11 +626,7 @@
         <div class="container">
           <div class="footer-brand">
             <a href="#" class="logo">
-              <img
-                src="./assets/images/logo-background.png"
-                alt=""
-                srcset=""
-              />
+              <img src="./assets/images/logo-background.png" srcset="" />
             </a>
           </div>
 
@@ -686,26 +713,34 @@
 
       <div class="footer-bottom">
         <div class="container">
-          <p class="copyright">&copy; 2023 Byit | All Rights Reserved</p>
+          <p class="copyright">© 2023 Byit | All Rights Reserved By Ahya</p>
 
           <ul class="footer-bottom-list">
-            <li>
-              <a href="#" class="footer-bottom-link">Privacy Policy</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-bottom-link">Terms of Use</a>
-            </li>
+            <p class="tax-num">Tax Registration Number : 379-550-539</p>
+            <!--
+              <li>
+                <a href="#" class="footer-bottom-link">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#" class="footer-bottom-link">Terms of Use</a>
+              </li>
+            -->
           </ul>
         </div>
       </div>
     </footer>
-
     <!-- 
     - custom js link
   -->
     <script src="./assets/js/script.js"></script>
+    <!--
+      -Aos
+    -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <script>
+      AOS.init();
+    </script>
     <!-- 
     - ionicon link
   -->
