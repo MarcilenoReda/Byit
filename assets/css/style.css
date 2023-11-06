@@ -135,7 +135,6 @@ body {
   color: var(--granite-gray);
   font-size: 1.6rem;
   line-height: 1.7;
-  overflow:hiden;
 }
 
 :focus-visible {
